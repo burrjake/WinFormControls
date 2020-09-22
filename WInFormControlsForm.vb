@@ -13,9 +13,9 @@
             ExitButton.Enabled = True
         End If
         If GroupOne1RadioButton.Checked = True Then
-            ExamplePictureBox.BackColor = System.Drawing.SystemColors.Desktop
+            ExamplePictureBox.BackgroundImage = My.Resources.Waveform2_10
         Else
-            ExamplePictureBox.BackColor = System.Drawing.SystemColors.Control
+            ExamplePictureBox.Hide()
         End If
     End Sub
 End Class
